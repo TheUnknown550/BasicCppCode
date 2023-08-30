@@ -9,8 +9,8 @@ int main(){
     srand(time(0));
 
     while (input!=-1){
-        num1 = rand()%9;
-        num2 = rand()%9;
+        num1 = rand()%10;
+        num2 = rand()%10;
         bool status = true;
         while (status){
             cout << "How much is "<<num1<<" Times "<<num2<<" (-1 to End)?: ";
