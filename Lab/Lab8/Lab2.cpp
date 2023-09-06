@@ -1,8 +1,9 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 void volumn(int r, int h){ // Declare function to calculate the volumn
-    cout << "The volumn of the cylinder is "<< 3.14*r*r*h << endl;
+    cout << "The volumn of the cylinder is "<< M_PI*r*r*h << endl;
 }
 
 int main(){
