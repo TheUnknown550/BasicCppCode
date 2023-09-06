@@ -2,7 +2,7 @@
 using namespace std;
 
 void volumn(int r, int h){
-    cout << "The volumn of the cylinder is "<< 3.14*r*h << endl;
+    cout << "The volumn of the cylinder is "<< 3.14*r*r*h << endl;
 }
 
 int main(){
@@ -31,13 +31,7 @@ int main(){
         }while (invalid);
         cout << "Would you like to continue? ";
         cin >> prompt;
-        if (prompt == 'N'||prompt == 'n'){
-            again = false;
-        }
-        else{
-            again = true;
-        }
 
-    }while(again);
+    }while(prompt != 'N'&&prompt != 'n');
     cout << "Good bye!";
 }
