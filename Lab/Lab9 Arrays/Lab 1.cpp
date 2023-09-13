@@ -20,7 +20,7 @@ int main(){
 
     cout<< setw(4) << "Face" << setw(14) << "Frequency"; // output
     for (int x=1; x<=6 ; x++){
-        cout << endl<< setw(4) << (x) << setw(14) << freq[x] ;
+        cout << endl << setw(4) << (x) << setw(14) << freq[x] ;
     }
      
 
