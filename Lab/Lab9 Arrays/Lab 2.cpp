@@ -1,25 +1,25 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
 int main(){
-    int num, index;
-    int array[5] ={}; 
+    int num, index; // declare inputs values
+    int array[5] ={}; // declare arrays to store the value
 
     for (int i = 0; i<5; i++){
-        cout<< "Enter a number: ";
+        cout<< "Enter a number: "; // prompt the user
         cin >> num;
-        cout << "Enter index: ";
+        cout << "Enter index: "; // prompt the user
         cin >> index;
-
-        array[index] = num;
+        array[index] = num; // set the index to the value that user wants
+        cout << endl;
     }    
     cout << "User array elements: ";
-    for (int i =0; i<5; i++){
+    for (int i =0; i<5; i++){ // output 
         cout << array[i] << " ";
     }
     cout << endl;
     cout << "Reversed array elements: ";
-    for(int i=5; i>0; i--){
+    for(int i=4; i>=0; i--){ // output in reversed
         cout << array[i] << " ";
     }
 }
